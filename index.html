@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="container ">
+    <div class="conteudo " id="conteudo">
+      <div data-anime="240" class="card fadeInLeft" id="card">
+        <h1>Login</h1>
+        <div class="label-float">
+          <input type="text" id="usuario" placeholder="Usuário">
+
+        </div>
+        <div class="label-float">
+          <input type="password" id="senha" placeholder="Senha">
+
+        </div>
+        <div>
+          <button>Entrar</button>
+        </div>
+
+        <div class="centro">
+          <hr>
+        </div>
+
+        <p class="centro">
+          Não tem uma conta?
+        </p>
+        <a onclick="acao()" class="centro" href="#">Cadastre-se</a>
+      </div>
+    </div>
+
+    <div class="conteudo" id="conteudo2">
+      <div class="card " id="card2">
+        <h1>Cadastre-se</h1>
+        <div class="label-float">
+          <input type="text" id="email" placeholder="Email">
+        </div>
+        <div class="label-float">
+          <input type="text" id="usuario" placeholder="Usuário">
+        </div>
+        <div class="label-float">
+          <input type="password" id="senha" placeholder="Senha">
+
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="confirmarSenha" placeholder="Confirmar Senha">
+
+        </div>
+
+
+        <div>
+          <button>Cadastrar</button>
+        </div>
+
+
+        <p class="centro">
+          Já possui uma conta?
+        </p>
+        <a class="centro" href="#" id="botao2">Voltar ao Login </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="./plugin/simple-anime.js"></script>
+  <script src=" ./script.js"></script>
+
+</body>
+
+</html>
